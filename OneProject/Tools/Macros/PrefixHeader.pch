@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  OneProject
+//
+//  Created by lanouhn on 16/4/22.
+//  Copyright © 2016年 Mr.Niu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//PCH文件一般用于引入头文件.引入之后全局都不需要再引入此文件.一般引入一些封装好的类供全局调用.
+
+#import "Header.h"
+#import "NetworkingManager.h"
+#import "CircleView.h"//轮播图
+#import "UIImageView+AFNetworking.h"//图片请求
+#import "MJRefresh.h"
+#import "UIButton+Action.h"
+
+//LO刷新
+#import "LORefreshControl.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
